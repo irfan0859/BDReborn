@@ -576,10 +576,10 @@ end
 
 -- Redis transactions (MULTI/EXEC)
 function get_text_msg()
-MSG = '\n@'..string.reverse("canalfb")
+MSG = '\n@'..string.reverse("bfcanal")
 return MSG
 end
--- get_text_msg = '\n@'..string.reverse("canalfb")
+-- get_text_msg = '\n@'..string.reverse("bfcanal")
 
 do
     local function identity(...) return ... end
